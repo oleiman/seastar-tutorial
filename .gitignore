@@ -2,3 +2,8 @@
 a.out
 build/
 build/**/*
+
+.cache
+.cache/**/*
+
+compile_commands.json
