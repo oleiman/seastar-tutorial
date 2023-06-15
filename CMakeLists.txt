@@ -9,7 +9,7 @@ find_package (Seastar REQUIRED)
 
 add_executable(example
   main.cc
-  src/service_loop.cc
+  src/promises.cc
 )
 
 target_link_libraries (example
