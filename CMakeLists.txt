@@ -9,7 +9,7 @@ find_package (Seastar REQUIRED)
 
 add_executable(example
   main.cc
-  src/promises.cc
+#  src/sched_group.cc
 )
 
 target_link_libraries (example
